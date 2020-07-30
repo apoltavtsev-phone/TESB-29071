@@ -26,7 +26,7 @@ public class bean_bean {
 		final boolean hi;
 
 		public bean_bean() {
-			Logger.getLogger("bean_bean.bean").log(Level.INFO, "3333333");
+			Logger.getLogger("bean_bean.bean").log(Level.INFO, "5555555");
 			hi = false;
 		}
 	}
