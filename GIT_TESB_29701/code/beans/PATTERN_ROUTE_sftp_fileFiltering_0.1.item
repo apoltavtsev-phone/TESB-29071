@@ -1,0 +1,15 @@
+package beans;
+
+
+import org.apache.camel.component.file.GenericFile;
+import org.apache.camel.component.file.GenericFileFilter;
+
+
+public class PATTERN_ROUTE_sftp_fileFiltering<T> implements GenericFileFilter<T> {
+
+	public boolean accept(GenericFile<T> file) {
+		return file.isDirectory() || file.getFileLength() != 0; 
+
+	}
+
+}
