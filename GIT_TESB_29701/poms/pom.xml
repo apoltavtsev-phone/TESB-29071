@@ -36,7 +36,6 @@
     <module>jobs/routes/MQ/mqmultireceiver_0.1</module>
     <module>jobs/process/demorestconsumer_0.1</module>
     <module>jobs/routes/directsedademo_0.1</module>
-    <module>jobs/routes/publishtocloudsimpletestroute_0.1</module>
     <module>jobs/routes/publishtocloudsimpletestroute2_0.1</module>
   </modules>
   <properties>
